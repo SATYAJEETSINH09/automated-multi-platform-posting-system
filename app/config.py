@@ -1,0 +1,19 @@
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHANNEL_ID = os.getenv("TELEGRAM_CHANNEL_ID")
+
+
+MASTODON_BASE_URL = os.getenv("MASTODON_BASE_URL")
+MASTODON_ACCESS_TOKEN = os.getenv("MASTODON_ACCESS_TOKEN")
+
+BLUESKY_HANDLE = os.getenv("BLUESKY_HANDLE")
+BLUESKY_APP_PASSWORD = os.getenv("BLUESKY_APP_PASSWORD")
+
+DEVTO_API_KEY = os.getenv("DEVTO_API_KEY")
+
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
